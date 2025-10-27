@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Form</title>
+</head>
+
+<body>
+    <table border="2" cellspacing="0" cellpadding="20" align="center">
+        <tbody>
+            <tr>
+                <td>
+                    <h2 align="center">Hotel Room Booking Form </h2>
+                    <hr>
+                    <form action="/submit" method="post" align="center">
+                        <div>
+                            <label for="name">Full Name:</label>
+                            <input id="name" type="text" placeholder="" required>
+                        </div>
+                        <br>
+                        <div>
+                            <label for="email">Email:</label>
+                            <input id="email" type="email" placeholder="" required>
+                        </div>
+                        <br>
+                        <div>
+                            <label for="ph">Phone:</label>
+                            <input id="ph" type="tel" placeholder="" required>
+                        </div>
+                        <br>
+                        <div>
+                            <label for="date">Check-in-Date:</label>
+                            <input id="date" type="date">
+                        </div>
+                        <br>
+                        <div>
+                            <label for="date">Check-out-Date:</label>
+                            <input id="date" type="date">
+                        </div>
+                        <br>
+                        <div>
+                            <label for="Room Type">Room Type:</label>
+                            <select name="Room Type" id="Room Type">
+                                <option value="" disabled selected>Room Type</option>
+                                <option value="Single">Single Room</option>
+                                <option value="Double">Double Room</option>
+                                <option value="Luxury Suite"> Luxury Suite</option>
+                            </select>
+                        </div>
+                        <br>
+                        <div>
+                            <label for="number">Number of Guests:</label>
+                            <input id="number" type="number" placeholder="">
+                        </div>
+                        <br>
+                        <div>
+                            <label for="comments">Special Requests:</label><br>
+                            <textarea id="comments" placeholder="" rows="5"></textarea>
+                        </div>
+                        
+                            <button type="submit">Book Now</button>
+                            <button type="reset">Restart Form</button>
+                        
+                    </form>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+
+</body>
+
+</html>
+</body>
+</html>
