@@ -1,0 +1,50 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background-color: #f2f2f2;
+}
+
+h1 {
+  text-align: center;
+  color: #222;
+}
+
+h3 {
+  color: #333;
+  margin-top: 30px;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  color: white;
+  text-align: center;
+  line-height: 100px;
+  font-weight: bold;
+  margin: 5px;
+  float: left;
+  border-radius: 10px;
+}
+
+.red {
+  background-color: #e74c3c;
+}
+
+.blue {
+  background-color: #3498db;
+}
+
+.green {
+  background-color: #2ecc71;
+}
+
+.para {
+  background-color: #ddd;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+.clear {
+  clear: both;
+}
